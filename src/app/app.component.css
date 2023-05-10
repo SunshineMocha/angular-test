@@ -1,0 +1,8 @@
+.divWow{
+  color: blue;
+  width: 200px;
+  height: 120px;
+  background-color: rgb(0, 255, 106);
+  border: solid 5px black;
+  border-radius: 10px;
+}

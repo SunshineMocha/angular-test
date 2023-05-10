@@ -1,15 +1,12 @@
 import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
 })
-export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
+export class RegisterComponent implements OnInit, AfterViewInit, OnDestroy{
   title = 'AngularTest';
-
-  public firstName:string='Mocha';
-  public email:string='Mocha@gmail.com';
 
   constructor(){
     console.log("1) heh, im in the constructor");
@@ -25,9 +22,5 @@ export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
 
   ngOnDestroy(){
     console.log("4) Component is being destroyed");
-  }
-
-  public saySomething(){
-    alert("Button Pressed");
   }
 }
